@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    sonepar,
+    pbb,
+    sigma,
+    website1,
     jobit,
     tripguide,
     threejs,
+    trendz,
   } from "../assets";
   
   export const navLinks = [
@@ -92,10 +92,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    
     {
       name: "Three JS",
       icon: threejs,
@@ -116,55 +113,56 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Marketing Executive",
+      company_name: "Trendz Empire",
+      icon: trendz,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2019 - Oct 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        'Keep track of product ratings.',
+        'Ensure smooth delivery of products to businesses.',
+        'Maintain accurate stock counts and apply FIFO method in the warehouse.',
+        'Oversee the flow of activities in the warehouse.',
+        'Provide both pre-sales and after-sales services.'
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Senior Sales & Marketing Executive",
+      company_name: "Public Bank Berhad",
+      icon: pbb,
+      iconBg: "#E6DEDD",
+      date: "May 2022 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        'Successfully delivered 100% of the target within the probation period and continuously to achieve monthly targets.',
+        'Proficient in comprehending and evaluating the range of financial products offered by the bank.',
+        'Access current and historical market trends to inform strategic decision - making.',
+        'Prepare concise reports on new information, communicating key insights to upper management.',
+        'Collaborate with team leaders to devise effective marketing strategies.'
+      ],
+    },
+    {
+      title: "Master Data Specialist",
+      company_name: "Sonepar",
+      icon: sonepar,
+      iconBg: "#E6DEDD",
+      date: "April 2023 - May 2023",
+      points: [
+        'Provided expert assistance in cleansing and enrichment of supplier’s business data, ensuring a high standard of accuracy and reliability.',
+        'Innovated and implemented streamlined automation processes for daily tasks, significantly boosting overall work efficiency and productivity. Successfully improved SLA performance by 50%, reducing average task completion time from 15 minutes to 7 minutes.',
+        'Proficiently engaged in business reporting using advanced analytical tools, including Microsoft PowerBI and DataIku , to deliver insightful and visually compelling reports that supported strategic decision making.',
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Sigma School",
+      icon: sigma,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2024 - Aug 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        'Developed and maintained web applications using React.js and related technologies during intensive bootcamp projects.',
+        'Collaborated with cross-functional teams of fellow students, instructors, and mentors to create high-quality applications.',
+        'Implemented responsive designs and ensured cross-browser compatibility across various projects.',
+        'Participated in code reviews, both giving and receiving constructive feedback to enhance code quality and learning outcomes.'
       ],
     },
   ];
@@ -198,46 +196,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tattoo Booking Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that enables users to create, view, and manage bookings for various services. The platform provides a seamless and responsive user experience, allowing users to securely authenticate, upload images, and interact with booking details in real-time.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Express",
           color: "pink-text-gradient",
         },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "REST API",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: website1,
+      source_code_link: "https://github.com/Ryan-Hozy/tattoo-booking-system-v2",
     },
     {
-      name: "Job IT",
+      name: "Uber Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
+        "Mobile app clone of Uber that allows users to request rides, manage payments, and track routes in real-time. The app integrates secure authentication, real-time backend services, payment processing, and interactive maps for a seamless transportation experience.",
+        tags: [
+          {
+            name: "React Native",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Clerk",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Neon",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Stripe",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Google Map",
+            color: "pink-text-gradient",
+          },
+        ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Ryan-Hozy/uber-clone",
     },
     {
       name: "Trip Guide",

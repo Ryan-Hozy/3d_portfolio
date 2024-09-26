@@ -42,11 +42,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 5)}
         className="mt-4 text-secondary text-[17px] mx-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Javascript and Python, and expertise in frameworks
-        like React, Node.js, and Three.js. I can also build a RESTful API with Express.js. Recently, I have been learning to build
-        with TailwindCss. I love to explore new areas to improve my skills and knowledge. I am good in collaborating 
-        closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        By day, I'm a code magician conjuring wonders with JavaScript and Python. Wielding powerful frameworks like React, Node.js, and Three.js, I create spellbinding web experiences. I've mastered crafting RESTful APIs with Express.js and recently added Tailwind CSS to my arsenal of tools. Ever the project adventurer, I'm always exploring new realms to enhance my skills and knowledge.
+
+I thrive on collaborating closely with clients to weave efficient, scalable, and user-friendly solutions that solve real-world problems. Ready to embark on a coding quest? Let's join forces and bring your ideas to life!
 
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
